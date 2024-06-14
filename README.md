@@ -46,12 +46,15 @@ And Laravel: https://laravel.com/docs/10.x
 ## New Installation Process
 1. npm install
 2. composer install
-3. add .env and change the database name to ims_database
-4. php artisan key:generate
-5. php artisan migrate
-6. php artisan db:seed
-7. php artisan serve
-8. npm run dev
+3. create .env
+4. Copy the .env.example top the .env
+5. Delete this inside the .env @ -1,58 +0,0 @@
+6. change the database name to ims_database
+7. php artisan key:generate
+8. php artisan migrate
+9. php artisan db:seed
+10. php artisan serve
+11. npm run dev
 
 
 ## Installation
